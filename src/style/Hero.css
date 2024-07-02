@@ -1,0 +1,54 @@
+.hero {
+	background-image: url("../images/hero-background.png");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+
+.hero-content {
+	text-align: center;
+}
+
+.hero-btn {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	margin-top: 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover {
+	background-color: #0056b3;
+}
+
+.hero-blur {
+	padding: 24px 24px 24px 24px;
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+		0 4px 6px -2px rgba(0, 0, 0, 0.05);
+	backdrop-filter: blur(4px);
+	background-color: rgba(59, 74, 84, 0.616);
+	border-radius: 0.75rem;
+}
+
+.hero-name {
+	font-size: 2.25rem;
+	line-height: 2.5rem;
+	font-weight: 700;
+	color: #ffffff;
+
+	@media (min-width: 640px) {
+		font-size: 3rem;
+		line-height: 1;
+	}
+
+	@media (min-width: 1024px) {
+		font-size: 4.5rem;
+		line-height: 1;
+	}
+}
