@@ -1,18 +1,19 @@
 import React from "react";
 import "../style/Hero.css";
+import { heroData } from "../data/data";
 
-interface HeroProps {
-	name: string;
-	description: string;
-}
-
-function Hero(props: HeroProps) {
+function Hero() {
 	return (
-		<div className="hero">
-			<div className="hero-content">
-				<div className="hero-content hero-blur">
-					<div className="hero-name">{props.name}</div>
-					<div className="hero-description">{props.description}</div>
+		<div
+			className="hero"
+			style={{ backgroundImage: `url(${heroData.imageSrc})` }}
+		>
+			<div className="hero1">
+				<div className="hero-content">
+					<div className="hero-name">{heroData.name}</div>
+					<div className="hero-description">
+						{heroData.description}
+					</div>
 					<button className="hero-btn">Learn More</button>
 				</div>
 			</div>
