@@ -1,5 +1,7 @@
 import { FC, ForwardRefExoticComponent, SVGProps } from "react";
 
+import { IconProps } from "../components/Icon/Icon";
+
 export interface HomepageMeta {
 	title: string;
 	description: string;
@@ -102,4 +104,13 @@ export interface ContactItem {
 	type: ContactType;
 	text: string;
 	href?: string;
+}
+
+/**
+ * Social items
+ */
+export interface Social {
+	label: string;
+	Icon: FC<IconProps>;
+	href: string;
 }

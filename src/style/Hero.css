@@ -28,7 +28,7 @@
 	padding: 1.5rem;
 	text-align: center;
 	flex-direction: column;
-	row-gap: 1.5rem;
+	row-gap: 1rem;
 	align-items: center;
 
 	border-radius: 16px;
@@ -84,9 +84,10 @@
 		font-size: 1rem;
 		line-height: 1.5rem;
 	}
+}
 
-	:hover {
-	}
+.action-button:hover {
+	background-color: #374251;
 }
 
 .action-button-primary {

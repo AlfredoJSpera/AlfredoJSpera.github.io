@@ -3,6 +3,7 @@ import "../style/Hero.css";
 import classNames from "classnames";
 import { heroData, SectionId } from "../data/data";
 import Chevron from "./Chevron";
+import Socials from "./Socials";
 
 function Hero() {
 	const { imageSrc, name, description, actions } = heroData;
@@ -15,7 +16,7 @@ function Hero() {
 
 					<div className="description">{description}</div>
 
-					{/* TODO: SOCIALS*/}
+					<Socials />
 
 					<div className="actions">
 						{actions.map(({ href, text, primary, Icon }) => (

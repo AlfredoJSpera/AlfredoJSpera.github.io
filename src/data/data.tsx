@@ -1,6 +1,9 @@
-import { HomepageMeta, Hero } from "./dataDef";
+import { HomepageMeta, Hero, Social } from "./dataDef";
 import { ArrowDownTrayIcon } from "@heroicons/react/24/outline";
 
+import GithubIcon from "../components/Icon/GithubIcon";
+import LinkedInIcon from "../components/Icon/LinkedInIcon";
+import StackOverflowIcon from "../components/Icon/StackOverflowIcon";
 import heroImage from "../images/hero-background.png";
 
 /**
@@ -53,3 +56,24 @@ export const heroData: Hero = {
 		},
 	],
 };
+
+/**
+ * Social items
+ */
+export const socialLinks: Social[] = [
+	{
+		label: "Github",
+		Icon: GithubIcon,
+		href: "https://github.com/AlfredoJSpera",
+	},
+	{
+		label: "Stack Overflow",
+		Icon: StackOverflowIcon,
+		href: "https://stackoverflow.com/users/23087941/alfredojspera",
+	},
+	{
+		label: "LinkedIn",
+		Icon: LinkedInIcon,
+		href: "https://www.linkedin.com/in/alfredo-jeshoua-spera-444200313/",
+	},
+];
