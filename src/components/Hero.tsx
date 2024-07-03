@@ -1,7 +1,8 @@
 import React from "react";
 import "../style/Hero.css";
 import classNames from "classnames";
-import { heroData } from "../data/data";
+import { heroData, SectionId } from "../data/data";
+import Chevron from "./Chevron";
 
 function Hero() {
 	const { imageSrc, name, description, actions } = heroData;
@@ -35,6 +36,7 @@ function Hero() {
 					</div>
 				</div>
 			</div>
+			<Chevron direction="down" href={`/#${SectionId.About}`} />
 		</div>
 	);
 }

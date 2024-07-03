@@ -1,0 +1,38 @@
+.chevron {
+	display: flex;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 1.5rem;
+	justify-content: center;
+}
+
+.chevron-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	--ring-color: #ffffff;
+	--ring-offset-width: 2px;
+	box-shadow: 0 0 0 var(--ring-offset-width) var(--ring-offset-color),
+		var(--ring-shadow);
+	background-color: #ffffff;
+
+	@media (min-width: 640px) {
+		width: 2.8rem;
+		height: 2.8rem;
+	}
+}
+
+.chevron-icon {
+	width: 1.25rem;
+	height: 1.25rem;
+	background-color: transparent;
+
+	@media (min-width: 640px) {
+		width: 1.5rem;
+		height: 1.5rem;
+	}
+}
