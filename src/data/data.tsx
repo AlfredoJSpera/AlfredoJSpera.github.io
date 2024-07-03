@@ -4,6 +4,20 @@ import { ArrowDownTrayIcon } from "@heroicons/react/24/outline";
 import heroImage from "../images/hero-background.png";
 
 /**
+ * Section definition
+ */
+export const SectionId = {
+	Hero: "hero",
+	About: "about",
+	Contact: "contact",
+	Portfolio: "portfolio",
+	Resume: "resume",
+	Skills: "skills",
+	Stats: "stats",
+	Testimonials: "testimonials",
+} as const;
+
+/**
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
@@ -20,7 +34,7 @@ export const heroData: Hero = {
 	description: (
 		<>
 			<p>
-				Sono uno <strong>studente di Informatica</strong> presso
+				Sono uno <strong>studente di Informatica</strong> presso{" "}
 				<strong className="text-stone-100">
 					l'Università degli Studi di Salerno
 				</strong>
