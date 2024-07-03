@@ -9,7 +9,7 @@ function App() {
 		<>
 			<Page>
 				<Hero />
-				<About />
+				{/*<About />*/}
 			</Page>
 		</>
 	);

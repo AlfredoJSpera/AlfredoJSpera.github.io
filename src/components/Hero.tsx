@@ -37,7 +37,8 @@ function Hero() {
 					</div>
 				</div>
 			</div>
-			<Chevron direction="down" href={`/#${SectionId.About}`} />
+
+			{/* <Chevron direction="down" href={`/#${SectionId.About}`} /> */}
 		</div>
 	);
 }
