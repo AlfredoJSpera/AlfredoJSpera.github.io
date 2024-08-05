@@ -34,7 +34,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const homePageMeta: HomepageMeta = {
 	title: "Spera Alfredo Jeshoua",
-	description: "Sito curriculum di Spera Alfredo Jeshoua",
+	description: "Sito di Spera Alfredo Jeshoua",
 };
 
 /**
