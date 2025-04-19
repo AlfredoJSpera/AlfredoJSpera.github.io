@@ -10,7 +10,7 @@ import {
 import GithubIcon from "../components/Icon/GithubIcon";
 import LinkedInIcon from "../components/Icon/LinkedInIcon";
 import StackOverflowIcon from "../components/Icon/StackOverflowIcon";
-import heroImage from "../images/hero-background.png";
+import heroImage from "../images/hero-background.webp";
 import profilepic from "../images/profilepic.png";
 
 /**
